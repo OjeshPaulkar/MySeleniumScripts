@@ -22,7 +22,7 @@ public class Select_MonthDropDown {
 		WebElement MonthListBox = driver.findElement(By.id("month"));
 		Select s = new Select(MonthListBox);
 		Thread.sleep(3000);
-		s.selectByVisibleText("May");
+		s.selectByVisibleText("Jun");
 		Thread.sleep(3000);
 		
 		

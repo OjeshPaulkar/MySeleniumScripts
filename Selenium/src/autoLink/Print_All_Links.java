@@ -19,14 +19,14 @@ public class Print_All_Links {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		List<WebElement> AllLinks = driver.findElements(By.xpath("//a"));
+		List<WebElement> AllLinks = driver.findElements(By.tagName("a"));   //******IMP********                 //.xpath("//a"));
 		int count = AllLinks.size();
 	    System.out.println(count);
 	    
 	    for (int i=0;i<count;i++) {                     //**********************USING FOR LOOP*************************
-	    	WebElement Var1 = AllLinks.get(i);
-	    	String text = Var1.getText();
-	    	System.out.println(text);
+	    	WebElement Var1 = AllLinks.get(i);                 //*******We can't use For Loop for "set" because we don't have get(i) method for set....
+	    	String text = Var1.getText();                //So for set always use For Each Loop
+	    	System.out.println(text);             
 	    }
 	    
 	    for (WebElement Var2:AllLinks) {               //***********************USING FOR EACH LOOP**********************

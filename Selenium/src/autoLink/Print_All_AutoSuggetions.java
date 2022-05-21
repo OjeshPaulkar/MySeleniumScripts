@@ -22,7 +22,7 @@ public class Print_All_AutoSuggetions {
 		WebElement SearchBox = driver.findElement(By.name("q"));
 		SearchBox.sendKeys("Selenium");
 		Thread.sleep(3000);
-		List<WebElement> List = driver.findElements(By.xpath("//li[@class='sbct']"));
+		List<WebElement> List = driver.findElements(By.xpath("//li[@class='sbct']"));          // <li>  Always list tag has to be found
 		int count = List.size();
 		System.out.println("The No. Of Auto Suggetions Are  "+count);
 		
@@ -38,7 +38,8 @@ public class Print_All_AutoSuggetions {
 			String text1 = Var1.getText();
 			System.out.println(text1);	
 		}
-		
+	    WebElement thirdE = List.get(3);
+	    System.out.println(thirdE.getText());
 		List.get(3).click();
 		
 		

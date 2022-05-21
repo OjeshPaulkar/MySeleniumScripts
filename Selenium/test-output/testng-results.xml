@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[whats up Message]]>
+    </line>
+    <line>
+      <![CDATA[whats up calling]]>
+    </line>
+    <line>
+      <![CDATA[whats up Status]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-19T08:39:23 IST" name="Default suite" finished-at="2022-05-19T08:39:23 IST" duration-ms="41">
+    <groups>
+    </groups>
+    <test started-at="2022-05-19T08:39:23 IST" name="Default test" finished-at="2022-05-19T08:39:23 IST" duration-ms="41">
+      <class name="testNG.Priority">
+        <test-method signature="WhatsUpMessage()[pri:1, instance:testNG.Priority@1f0f1111]" started-at="2022-05-19T08:39:23 IST" name="WhatsUpMessage" finished-at="2022-05-19T08:39:23 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[whats up Message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WhatsUpMessage -->
+        <test-method signature="WhatsUpcall()[pri:2, instance:testNG.Priority@1f0f1111]" started-at="2022-05-19T08:39:23 IST" name="WhatsUpcall" finished-at="2022-05-19T08:39:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[whats up calling]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WhatsUpcall -->
+        <test-method signature="WhatsUpStatus()[pri:3, instance:testNG.Priority@1f0f1111]" started-at="2022-05-19T08:39:23 IST" name="WhatsUpStatus" finished-at="2022-05-19T08:39:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[whats up Status]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WhatsUpStatus -->
+      </class> <!-- testNG.Priority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
