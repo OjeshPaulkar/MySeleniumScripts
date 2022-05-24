@@ -16,13 +16,13 @@ public class Without_Looping {
 	
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		driver.get("file:///C:/Users/acer/Desktop/HTML/MTR.html");
+		driver.get("file:///C:/Users/acer/Desktop/Automation%20HTML/MTR.html");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 	    WebElement mtrListBox = driver.findElement(By.id("mtr"));
 	    Select s = new Select(mtrListBox);
 	    
-	    WebElement AllOptions = s.getWrappedElement();    //*******************
+	    WebElement AllOptions = s.getWrappedElement();   //*******************
 	    String text = AllOptions.getText();
 	    System.out.println(text);
 	    

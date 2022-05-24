@@ -1,43 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[whats up Message]]>
-    </line>
-    <line>
-      <![CDATA[whats up calling]]>
-    </line>
-    <line>
-      <![CDATA[whats up Status]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-05-19T08:39:23 IST" name="Default suite" finished-at="2022-05-19T08:39:23 IST" duration-ms="41">
+  <suite started-at="2022-05-22T15:24:02 IST" name="Suite" finished-at="2022-05-22T15:25:48 IST" duration-ms="106339">
     <groups>
+      <group name="Regression">
+        <method signature="Test1.facebook()[pri:0, instance:Testng_Regression.Test1@1700915]" name="facebook" class="Testng_Regression.Test1"/>
+        <method signature="Test1.skillraryLogin()[pri:0, instance:Testng_Regression.Test1@1700915]" name="skillraryLogin" class="Testng_Regression.Test1"/>
+        <method signature="Test2.facebook()[pri:0, instance:Testng_Regression.Test2@30ee2816]" name="facebook" class="Testng_Regression.Test2"/>
+        <method signature="Test2.skillraryLogin()[pri:0, instance:Testng_Regression.Test2@30ee2816]" name="skillraryLogin" class="Testng_Regression.Test2"/>
+        <method signature="Test3.facebook()[pri:0, instance:Testng_Regression.Test3@48e4374]" name="facebook" class="Testng_Regression.Test3"/>
+        <method signature="Test3.skillraryLogin()[pri:0, instance:Testng_Regression.Test3@48e4374]" name="skillraryLogin" class="Testng_Regression.Test3"/>
+        <method signature="Test4.facebook()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" name="facebook" class="Testng_Regression.Test4"/>
+        <method signature="Test4.skillraryLogin()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" name="skillraryLogin" class="Testng_Regression.Test4"/>
+        <method signature="Test5.facebook()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" name="facebook" class="Testng_Regression.Test5"/>
+        <method signature="Test5.skillraryLogin()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" name="skillraryLogin" class="Testng_Regression.Test5"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2022-05-19T08:39:23 IST" name="Default test" finished-at="2022-05-19T08:39:23 IST" duration-ms="41">
-      <class name="testNG.Priority">
-        <test-method signature="WhatsUpMessage()[pri:1, instance:testNG.Priority@1f0f1111]" started-at="2022-05-19T08:39:23 IST" name="WhatsUpMessage" finished-at="2022-05-19T08:39:23 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-05-22T15:24:02 IST" name="Test" finished-at="2022-05-22T15:25:48 IST" duration-ms="106339">
+      <class name="Testng_Regression.Test1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test1@1700915]" started-at="2022-05-22T15:24:50 IST" name="launchBrowser" finished-at="2022-05-22T15:24:51 IST" duration-ms="1058" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[whats up Message]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- WhatsUpMessage -->
-        <test-method signature="WhatsUpcall()[pri:2, instance:testNG.Priority@1f0f1111]" started-at="2022-05-19T08:39:23 IST" name="WhatsUpcall" finished-at="2022-05-19T08:39:23 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="facebook()[pri:0, instance:Testng_Regression.Test1@1700915]" started-at="2022-05-22T15:24:51 IST" name="facebook" finished-at="2022-05-22T15:24:55 IST" duration-ms="3718" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[whats up calling]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- WhatsUpcall -->
-        <test-method signature="WhatsUpStatus()[pri:3, instance:testNG.Priority@1f0f1111]" started-at="2022-05-19T08:39:23 IST" name="WhatsUpStatus" finished-at="2022-05-19T08:39:23 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test1@1700915]" started-at="2022-05-22T15:24:55 IST" name="exit" finished-at="2022-05-22T15:24:59 IST" duration-ms="4160" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[whats up Status]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- WhatsUpStatus -->
-      </class> <!-- testNG.Priority -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test1@1700915]" started-at="2022-05-22T15:24:59 IST" name="launchBrowser" finished-at="2022-05-22T15:25:00 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="skillraryLogin()[pri:0, instance:Testng_Regression.Test1@1700915]" started-at="2022-05-22T15:25:00 IST" name="skillraryLogin" finished-at="2022-05-22T15:25:07 IST" duration-ms="7113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillraryLogin -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test1@1700915]" started-at="2022-05-22T15:25:07 IST" name="exit" finished-at="2022-05-22T15:25:07 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Testng_Regression.Test1 -->
+      <class name="Testng_Regression.Test2">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test2@30ee2816]" started-at="2022-05-22T15:25:07 IST" name="launchBrowser" finished-at="2022-05-22T15:25:08 IST" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="facebook()[pri:0, instance:Testng_Regression.Test2@30ee2816]" started-at="2022-05-22T15:25:08 IST" name="facebook" finished-at="2022-05-22T15:25:10 IST" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test2@30ee2816]" started-at="2022-05-22T15:25:10 IST" name="exit" finished-at="2022-05-22T15:25:14 IST" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test2@30ee2816]" started-at="2022-05-22T15:25:14 IST" name="launchBrowser" finished-at="2022-05-22T15:25:15 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="skillraryLogin()[pri:0, instance:Testng_Regression.Test2@30ee2816]" started-at="2022-05-22T15:25:15 IST" name="skillraryLogin" finished-at="2022-05-22T15:25:21 IST" duration-ms="5732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillraryLogin -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test2@30ee2816]" started-at="2022-05-22T15:25:21 IST" name="exit" finished-at="2022-05-22T15:25:21 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Testng_Regression.Test2 -->
+      <class name="Testng_Regression.Test3">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test3@48e4374]" started-at="2022-05-22T15:24:02 IST" name="launchBrowser" finished-at="2022-05-22T15:24:04 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="facebook()[pri:0, instance:Testng_Regression.Test3@48e4374]" started-at="2022-05-22T15:24:04 IST" name="facebook" finished-at="2022-05-22T15:24:06 IST" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test3@48e4374]" started-at="2022-05-22T15:24:06 IST" name="exit" finished-at="2022-05-22T15:24:10 IST" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test3@48e4374]" started-at="2022-05-22T15:24:10 IST" name="launchBrowser" finished-at="2022-05-22T15:24:11 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="skillraryLogin()[pri:0, instance:Testng_Regression.Test3@48e4374]" started-at="2022-05-22T15:24:11 IST" name="skillraryLogin" finished-at="2022-05-22T15:24:18 IST" duration-ms="6380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillraryLogin -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test3@48e4374]" started-at="2022-05-22T15:24:18 IST" name="exit" finished-at="2022-05-22T15:24:18 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Testng_Regression.Test3 -->
+      <class name="Testng_Regression.Test4">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" started-at="2022-05-22T15:24:18 IST" name="launchBrowser" finished-at="2022-05-22T15:24:19 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="facebook()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" started-at="2022-05-22T15:24:19 IST" name="facebook" finished-at="2022-05-22T15:24:21 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" started-at="2022-05-22T15:24:21 IST" name="exit" finished-at="2022-05-22T15:24:25 IST" duration-ms="4165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" started-at="2022-05-22T15:24:25 IST" name="launchBrowser" finished-at="2022-05-22T15:24:26 IST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="skillraryLogin()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" started-at="2022-05-22T15:24:26 IST" name="skillraryLogin" finished-at="2022-05-22T15:24:50 IST" duration-ms="23947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillraryLogin -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test4@48ae9b55]" started-at="2022-05-22T15:24:50 IST" name="exit" finished-at="2022-05-22T15:24:50 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Testng_Regression.Test4 -->
+      <class name="Testng_Regression.Test5">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" started-at="2022-05-22T15:25:21 IST" name="launchBrowser" finished-at="2022-05-22T15:25:22 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="facebook()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" started-at="2022-05-22T15:25:22 IST" name="facebook" finished-at="2022-05-22T15:25:25 IST" duration-ms="2387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" started-at="2022-05-22T15:25:25 IST" name="exit" finished-at="2022-05-22T15:25:29 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" started-at="2022-05-22T15:25:29 IST" name="launchBrowser" finished-at="2022-05-22T15:25:30 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="skillraryLogin()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" started-at="2022-05-22T15:25:30 IST" name="skillraryLogin" finished-at="2022-05-22T15:25:44 IST" duration-ms="14278" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#emai"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-2BOE3UC', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa2463d3a6fd1de83ceeb9383f20005a
+*** Element info: {Using=id, value=emai}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#emai"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-2BOE3UC', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa2463d3a6fd1de83ceeb9383f20005a
+*** Element info: {Using=id, value=emai}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Testng_Regression.Test5.skillraryLogin(Test5.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillraryLogin -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Testng_Regression.Test5@31d7b7bf]" started-at="2022-05-22T15:25:44 IST" name="exit" finished-at="2022-05-22T15:25:48 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Testng_Regression.Test5 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

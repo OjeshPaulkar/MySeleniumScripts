@@ -1,5 +1,7 @@
 package PopUp;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +20,7 @@ public class Confirmation_Ok_and_Cancle {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.automationtesting.in/Alerts.html");
 		driver.manage().window().maximize();
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("(//a[@data-toggle='tab'])[2]")).click();
 		driver.findElement(By.xpath("//button[@onclick='confirmbox()']")).click();
 		WebDriverWait wait = new WebDriverWait(driver,10);

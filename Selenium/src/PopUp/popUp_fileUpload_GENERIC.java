@@ -14,7 +14,7 @@ public class popUp_fileUpload_GENERIC {
 	
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver= new ChromeDriver();
-		driver.get("file:///C:/Users/acer/Desktop/upload.html");
+		driver.get("file:///C:/Users/acer/Desktop/Automation%20HTML/upload.html");
 		File f = new File("./data/demo.pdf");
 		String aPath = f.getAbsolutePath();
 		driver.findElement(By.id("cv")).sendKeys(aPath);
