@@ -12,7 +12,7 @@ public class popUp_notification {
 	
 	public static void main(String[] args) throws InterruptedException  {
 		ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-notifications");
+        options.addArguments("--disable-notifications");               //Also Works with ("disable-notifications")
 		WebDriver driver= new ChromeDriver(options);
 		driver.get("https://www.yatra.com/");
 		Thread.sleep(5000);
